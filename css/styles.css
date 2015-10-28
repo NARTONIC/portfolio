@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+}
+
+p{
+	font-family: arial;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: white;
+}
+
+h5, h1 {
+    font-family: arial;
+}
+
+.navigation{
+	background-color: black;
+	position: fixed;
+	width:100%;
+}	
+
+.logo{
+	height: 70px;
+    margin-left: 14px;
+    border-radius: 46px;
+}
+
+.navigation .menu-list{
+	float: right;
+}
+.content{
+	width:100%;
+}
+
+.navigation .content{
+	margin: 0 auto;
+	width: 60%;
+}
+
+.navigation .menu-list > li{
+	display: inline-block;
+	color: white;
+	margin-left: 2em;
+    margin-top: 0.5rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.navigation .menu-list > li:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.gallery .content{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-me .content{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery img {
+    margin-top: 7rem;
+    box-shadow: 16px 16px 23px 6px;
+    border: 2px solid #800000;
+}
+
+.about-me {
+	margin-top: 2rem;
+}
+
+.about-me .content > h3{
+	color: #cb1577;
+	text-shadow: 0 0 12px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.7rem;
+	text-decoration: underline;
+}
+
+.about-me .content p > strong{	
+	color: #7f00ff;
+}
+
+.projects .content {
+    background-color: #c0c0c0;
+    box-shadow: 0 0 21px 3px;
+    text-align: center;
+ }   
+
+.projects .content > h3 {
+    padding-top: 1.4rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.projects .content .my-projects {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .my-projects > li{
+	display: inline-block;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.examples{
+	text-align: center;
+}
+
+.examples .content .images-ex > li{
+	display: inline-block;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+
+.social{
+	background-color: #C6E2FF;	
+	overflow: hidden;
+	text-align: center;
+}
+
+.social .content .my-social > li{
+	display: inline-block;
+	margin: 1.25rem 5px;
+}
+ul, ol{
+	list-style: none;
+}
